@@ -8,6 +8,7 @@ import Home from './Components/Home/Home'
 import PropertyLayout from './Components/Pages/PropertyLayout';
 import Footer from "./Components/footer/Footer"
 
+
 function App() {
   const router = createBrowserRouter([
     {
@@ -25,17 +26,19 @@ function App() {
     {
       path:"/",
       element:<><Navbar /><Home/><Footer/></>
-    },
+    },    
     {
       path:"/",
       element: <><Navbar/><Home/><Footer/></>
     },
+   
 ])
 
   return (
     <>
  
       <RouterProvider router={router}/>
+     
     </>
   )
 }

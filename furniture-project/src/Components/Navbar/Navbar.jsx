@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white fixed z-10 w-full justify-between shadow-md">
+    <nav className="bg-white fixed z-10 w-full shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -26,7 +26,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="hidden md:block">
-            <Link to="#" className="bg-green-500 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-green-600">
+            <Link to="/Login" className="bg-green-500 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-green-600">
               SCHEDULE VISIT
             </Link>
           </div>
